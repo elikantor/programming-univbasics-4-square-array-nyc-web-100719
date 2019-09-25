@@ -6,5 +6,5 @@ def square_array(array)
       c += 1
   end
   
-  print newarr
+  return newarr
 end
