@@ -3,6 +3,7 @@ def square_array(array)
   newarr = []
   while array[c] do
       newarr << array[c] ** 2
+      c += 1
   end
   
   print newarr
